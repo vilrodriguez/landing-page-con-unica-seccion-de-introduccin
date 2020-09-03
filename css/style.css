@@ -115,6 +115,8 @@ body{
   color: white;
   font-size: 1rem;
 }
+/* RESPONSIVE */
+
 
 .attribution {
   font-size: 11px;
@@ -122,4 +124,54 @@ body{
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url('../images/bg-mobile.svg');
+  }
+  .header img {
+    width: 50%;
+  }
+  .main-container {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .main-aside{
+    width: 100vw;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .main-aside img{
+    width: 80%;
+    margin: 0;
+  }
+
+.main-section {
+  width: 100%; 
+  text-align: center;
+  margin-top: 3rem;
+}
+.main-section__title{
+  font-size: 1.5rem;
+}
+.main-section__p{
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 1rem 0 0 0;
+}
+.main-section__btn{
+  width: 200px;
+  height: 3rem;
+  font-size: 1.2rem; 
+  border-style: none;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 1.5rem 0 1.5rem 0;
+  color: var(--primary-color);
+  box-shadow: 3px 4px 13px 2px #39306b;
+  font-family: 'Poppins', sans-serif;
+}
+  
 }
