@@ -4,9 +4,59 @@
   box-sizing: border-box;
 }
 
-html{
-  font-family: 'Poppins', sans-serif;
+:root{
+  --primary-color: hsl(257, 40%, 49%);
 }
+html{
+
+  font-family: sans-serif;
+}
+body{
+  padding: 0 2.5rem 0 2.5rem;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--primary-color);
+  background-image: url('../images/bg-desktop.svg');
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titles {
+
+}
+.other-text{
+
+}
+/* HEADER */
+.header{
+  width: 100%;
+  height: 30%;
+  padding: 2rem;
+  border: 2px solid purple;
+}
+
+/* MAIN */
+.main-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+.main-section {
+  width: 40%;
+}
+.main-section__title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+}
+.main-section__p{
+  font-size: 1rem;
+}
+
+
+
 
 
 .attribution {
