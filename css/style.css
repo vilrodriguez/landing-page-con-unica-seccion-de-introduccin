@@ -31,7 +31,7 @@ body{
   width: 100%;
   height: 30%;
   padding: 2rem;
-  border: 2px solid purple;
+  /*border: 2px solid purple;*/
 }
 
 /* MAIN */
@@ -40,12 +40,20 @@ body{
   display: flex;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   color: #ffffff;
+  
 }
 
 .main-section {
-  width: 40%;
+  width: 50%;
+  
+}
+.main-aside{
+  /*padding: 1.5rem;*/
+  width: 50%;
+  /*border: 2px solid red;*/
 }
 .main-section__title{
   font-family: 'Poppins', sans-serif;
@@ -54,7 +62,20 @@ body{
 .main-section__p{
   font-size: 1rem;
 }
+.main-section__btn{
+  width: 200px;
+  height: 3rem;
+  font-size: 1.2rem; 
+  border-style: none;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 1.5rem 0 1.5rem 0;
+  color: var(--primary-color);
+  /*padding: 0.8rem 1rem 0.8rem 1rem;*/
+  box-shadow: 3px 4px 13px 2px #39306b;
+  font-family: 'Poppins', sans-serif;
 
+}
 
 
 
