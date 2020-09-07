@@ -81,11 +81,11 @@ body{
 .main-section__btn:hover{ 
   color: #f052ca;
   /* font-weight: bold; */
-  /* background-color: var(--primary-color); */
+  background-color: white;
   border: 2px solid #f052ca;
- box-shadow: 5px 2px 7px 1px #00000061;
+  box-shadow: 5px 2px 7px 1px #00000061;
 }
- }
+
 /* FOOTER */
 
 .footer-container {
@@ -94,7 +94,7 @@ body{
   text-align: end;
   list-style: none;
   margin-top: 3rem;
-  padding: 0 2rem 0 2rem;
+  padding: 0 2rem 1rem 2rem;
 }
 
 .footer-container ul {
@@ -162,10 +162,9 @@ body{
   }
   
   .main-aside img{
-    width: 70%;
+    width: 80%;
     margin: 0;
   }
-
   .main-section {
     width: 100%; 
     text-align: center;
@@ -190,7 +189,6 @@ body{
 
 @media screen and (max-width: 386px) {
   body {
-
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -202,17 +200,7 @@ body{
     padding-top: 1rem;
     height: 15%;
   }
-  .header img {
-    width: 40%;
-    margin: 0;
-  
-  }
-  .main-container {
-    width: 100%;
-    flex-direction: column;
-    padding: 1rem;
-    margin:0;
-  }
+
   .main-aside{
     width: 100vw;
     padding: 0;
@@ -220,16 +208,8 @@ body{
     margin: 0;
   }
   
-  .main-aside img{
-    width: 80%;
-    margin: 0;
-  }
-
   .main-section {
-    width: 100%; 
-    text-align: center;
-    margin-top: 3rem;
-    padding: 0;
+    margin-top: 2rem;
   }
   .main-section__title{
     font-size: 1.5rem;
