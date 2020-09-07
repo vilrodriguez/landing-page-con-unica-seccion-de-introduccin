@@ -75,8 +75,17 @@ body{
   color: var(--primary-color);
   box-shadow: 3px 4px 13px 2px #39306b;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: 0.5s;
 }
-
+.main-section__btn:hover{ 
+  color: #f052ca;
+  /* font-weight: bold; */
+  /* background-color: var(--primary-color); */
+  border: 2px solid #f052ca;
+ box-shadow: 5px 2px 7px 1px #00000061;
+}
+ }
 /* FOOTER */
 
 .footer-container {
